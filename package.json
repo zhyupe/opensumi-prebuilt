@@ -1,0 +1,37 @@
+{
+  "name": "opensumi-prebuilt",
+  "version": "1.0.0",
+  "repository": "git@github.com:zhyupe/opensumi-prebuilt.git",
+  "devDependencies": {
+    "@opensumi/di": "^1.0.0",
+    "@opensumi/ide-core-browser": "^2.16.0",
+    "@opensumi/ide-core-common": "^2.16.0",
+    "@opensumi/monaco-editor-core": "^0.29.1-patch.4",
+    "@originjs/vite-plugin-commonjs": "^1.0.3",
+    "@types/node": "^17.0.22",
+    "@types/react": "^17.0.41",
+    "@types/react-dom": "^17.0.14",
+    "less": "^4.1.2",
+    "tslib": "^2.3.1",
+    "typescript": "^4.6.2",
+    "vite": "^2.8.6",
+    "vite-tsconfig-paths": "^3.4.1"
+  },
+  "scripts": {
+    "build": "vite build",
+    "serve": "vite serve"
+  },
+  "packageManager": "yarn@3.2.0",
+  "dependencies": {
+    "browserfs": "^1.4.3",
+    "lodash": "^4.17.21",
+    "lodash.debounce": "^4.0.8",
+    "lodash.omit": "^4.5.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "resolutions": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}

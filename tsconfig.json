@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "rootDir": "./src/",
+    "outDir": "./lib/",
+    "noImplicitAny": true,
+    "module": "esnext",
+    "target": "esnext",
+    "moduleResolution": "node",
+    "declaration": true,
+    "emitDeclarationOnly": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "jsx": "react-jsx"
+  },
+  "exclude": [
+    "vite.config.ts",
+    "lib",
+    "node_modules"
+  ]
+}
